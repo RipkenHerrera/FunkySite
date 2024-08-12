@@ -30,7 +30,6 @@ html {
   }
   
   /* ---------------- Stars ---------------- */
-  
   #stars span {
     display: inline-block;
     transform: scale(1);
@@ -63,9 +62,7 @@ html {
     animation: none; /* Disables the animation on hover */
   }
   
-  
   /* ---------------- Title ---------------- */
-  
   #title {
     font-family: Helvetica, Geneva, sans-serif; /* Any font would work, but SansSerif looks better */
   }
@@ -90,17 +87,11 @@ html {
     background-color: red; /* This hides the selection */
   }
   
-  
   /* ---------------- Slogan ---------------- */
-  
   #slogan { font-size: 0.25em; }
   #slogan span:active { text-shadow: none; }
-  
-  
-  
-  
+
   /* Below just some styling for the meta info */
-  
   #meta {
     color: #777;
     font-size: 1.2em;
@@ -109,6 +100,7 @@ html {
     text-shadow: rgba(255,255,255,0.5) 0 1px 0;
     margin: 30px;
   }
+
   #meta strong { font-weight: bold; color: #000; }
   #meta p:first-child { margin-bottom: 20px; }
   #meta a { text-decoration: none; color: #7276ff; }
